@@ -1,2 +1,3 @@
-# ericob.github.io
-Official Repository To Show Off Obed Amoako
+# OBED'S PERSONAL SHOW-OFF
+
+Go to ericob.github.io to view all you need to know

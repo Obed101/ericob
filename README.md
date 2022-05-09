@@ -1,3 +1,3 @@
 # OBED'S PERSONAL SHOW-OFF
 
-Go to ericob.github.io to view all you need to know
+Go to [ericob.sytes.net](https://ericob.sytes.net) to learn more about Obed

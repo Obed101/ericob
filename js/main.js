@@ -105,3 +105,9 @@
     
 })(jQuery);
 
+function sendEmail() {
+    var link = `mailto:obedamoako92@gmail.com?subject=${encodeURIComponent($(
+        '#subject').val())}&body=${encodeURIComponent(
+        $('#message').val())}. From ${$('#name').val()}`;
+    window.location.href = link;
+}

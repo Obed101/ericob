@@ -428,7 +428,7 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: #ffffff;
+    background: white;
 }
 
 .section-header p::before {
@@ -1190,8 +1190,24 @@ a:focus {
     background: #ffffff;
 }
 
-
-
+/* Coffee */
+.coffee {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 15px;
+    background: linear-gradient(slateblue, darkslateblue);
+    color: orange;
+    border: orange 1px solid;
+    width: fit-content;
+    float: right;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+}
+.coffee:hover {
+    color: white;
+    border: white 1px solid;
+}
 /********* Contact  *********/
 .contact {
     position: relative;

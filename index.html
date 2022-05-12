@@ -403,7 +403,7 @@
                         <div class="col-md-8">
                             <div class="contact-form">
                                 <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <form name="sentMessage" id="contactForm" novalidate="novalidate" action="/mail/contact.php">
                                     <a target="_blank" class="coffee fa fa-coffee" href="https://paypal.me/ericobe"> Buy me a coffee</a>
                                     <h2 style="text-align:center;color:#fff" class="fa fa-pencil">Send Me a Message</h2>
                                     <div class="control-group">
@@ -423,7 +423,7 @@
                                         <p class="help-block"></p>
                                     </div>
                                     <div>
-                                        <button class="btn" type="submit" id="sendMessageButton" onclick="sendEmail()">Submit Message</button>
+                                        <button class="btn" type="submit" id="sendMessageButton">Submit Message</button>
                                     </div>
                                 </form>
                             </div>

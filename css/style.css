@@ -1202,7 +1202,6 @@ a:focus {
     width: fit-content;
     float: right;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
 }
 .coffee:hover {
     color: white;

@@ -15,10 +15,10 @@ $(function() {
       $this = $("#sendMessageButton");
       // $this.prop("disabled", true);
       $this.html(`<i class="fa fa-spinner fa-pulse"></i>`)
-      $text = `Submit Message`
+      $text = ` Send`
       $.ajax({
         url: "/mail/contact.php",
-        type: "POST",
+        method: "POST",
         data: {
           name: name,
           email: email,

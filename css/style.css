@@ -1199,6 +1199,7 @@ a:focus {
     background: linear-gradient(slateblue, darkslateblue);
     color: orange;
     border: orange 1px solid;
+    border-radius: 20px;
     width: fit-content;
     float: right;
     text-decoration: none;

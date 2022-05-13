@@ -15,7 +15,7 @@ $(function() {
       $this = $("#sendMessageButton");
       // Changing the Send to Rotating icon
       $this.html(`<i class="fa fa-spinner fa-pulse"></i>`);
-      
+
       $text = ` Send`
       $.ajax({
         url: "/mail/contact.php",
@@ -52,10 +52,13 @@ $(function() {
             )
             .append("</button>");
           $("#success > .alert-danger").append(
-            $("<strong>").text(
+            $("<strong>").html(
               "Sorry " +
                 name +
-                ", it seems there is an error. Please check your entry and connection and try again!"
+                `, it seems there is an error.
+If this continues, kindly <a style="color:blue" href='https://wa.me/233274097985'>
+Chat me on WhatsApp</a>
+Or call me on my number below`
             )
           );
           console.log("send not successful");

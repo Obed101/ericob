@@ -13,8 +13,9 @@ $(function() {
       let subject = $("input#subject").val();
       let message = $("textarea#message").val();
       $this = $("#sendMessageButton");
-      // $this.prop("disabled", true);
-      $this.html(`<i class="fa fa-spinner fa-pulse"></i>`)
+      // Changing the Send to Rotating icon
+      $this.html(`<i class="fa fa-spinner fa-pulse"></i>`);
+      
       $text = ` Send`
       $.ajax({
         url: "/mail/contact.php",

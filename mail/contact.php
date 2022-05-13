@@ -13,9 +13,10 @@ $to = "obedamoako92@gmail.com";
 $subject = "$m_subject:  $name";
 $body = "Hello Obed,\nSomeone sent you message from your website.\n\n"."Here are the details:\n\nName: $name\n\n\nEmail: $email\n\nSubject: $m_subject\n\nMessage: $message";
 $header = "From: $email";
-$header .= "Reply-To: $email";	
-
-if(!mail($to, $subject, $body, $header))
+$header .= "Reply-To: $email";
+try {
+  mail($to, $subject, $body, $header);
+} catch(_err) {
   http_response_code(500);
-
+}
 ?>

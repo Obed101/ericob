@@ -1365,9 +1365,7 @@ a:focus {
 }
 
 
-/*******************************/
-/********* Footer CSS **********/
-/*******************************/
+/********* Footer **********/
 .footer {
     position: relative;
     margin-top: 45px;
@@ -1438,7 +1436,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #414141;
+    color: blue;
 }
 
 .footer .copyright {
@@ -1474,7 +1472,7 @@ a:focus {
 }
 
 .footer .copyright p a:hover {
-    color: #414141;
+    color: blue;
 }
 
 @media (max-width: 575.98px) {

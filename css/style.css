@@ -723,7 +723,7 @@ a:focus {
 
 
 /********* Service *********/
-.service {
+.service, .skillset {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
@@ -799,6 +799,49 @@ a:focus {
     }
 }
 
+/* PROGRAMMING LANGUAGES SECTION */
+.skillset h2 {
+    font-size: 40px;
+    padding: 10px;
+}
+.sname {
+    color: darkslateblue;
+    font-weight: 500;
+    font-size: larger;
+    text-align: center;
+}
+.set-list {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: default;
+    padding: 1% 10%;
+    place-self: center;
+    align-items:flex-end;
+}
+.skillset-title {
+    align-self: center;
+    text-align: center;
+}
+.set-list > div {
+    padding: 10px;
+    margin: 4px;
+    background-color: white;
+    box-shadow: #666666 0 0 3px;
+    cursor: pointer;
+}
+.skillset i {
+    display: block;
+    font-size: xx-large;
+    padding: 3px;
+    color: darkblue;
+    text-align: center;
+}
+.set-list > div:hover {
+    background-color: white;
+    transform: scale(1.1);
+    box-shadow: #414141 0 4px 4px;
+}
 
 /******** Portfolio ********/
 .portfolio {
@@ -1099,6 +1142,9 @@ a:focus {
         font-size: 14px;
         line-height: 18px;
         margin-bottom: 10px;
+    }
+    .set-list{
+        padding: 0;
     }
 }
 

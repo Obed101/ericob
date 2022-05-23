@@ -223,16 +223,15 @@ a:focus {
   padding: 0;
 }
 
-.row + .my-image {
-  /* position: relative; */
-  background: url(../img/obed_transp.png);
+.my-image {
   border-radius: 100%;
   z-index: 10;
 }
 
-.hero .my-image img {
+.my-image .home-right {
   max-width: 60%;
   max-height: 60%;
+  background: url(/img/obed_transp.png) contain;
   border-radius: 100%;
   text-orientation:sideways;
 }
@@ -1228,7 +1227,7 @@ a:focus {
   position: relative;
   width: 100%;
   margin: 45px 0;
-  background: darkslateblue;
+  background: slateblue;
 }
 
 #contact > #background {
@@ -1239,7 +1238,7 @@ a:focus {
 .contact .contact-form {
   position: relative;
   padding: 90px 0 90px 45px;
-  background: darkslateblue;
+  background: slateblue;
 }
 
 .contact .contact-form input {

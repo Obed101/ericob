@@ -226,14 +226,17 @@ a:focus {
 .my-image {
   border-radius: 100%;
   z-index: 10;
+  height: 15%;
+  width: 30%
 }
 
 .my-image .home-right {
   max-width: 60%;
   max-height: 60%;
-  background: url(/img/obed_transp.png) contain;
+  background: url(../img/obed_transp.png) right center no-repeat;
   border-radius: 100%;
   text-orientation:sideways;
+
 }
 
 .hero .hero-content {

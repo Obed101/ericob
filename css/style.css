@@ -1197,20 +1197,29 @@ a:focus {
 }
 
 /* Coffee */
-.coffee {
-  position: absolute;
-  top: 10px;
-  right: 0;
-  padding: 15px;
+.coffee, .coffee1 {
+  position: relative;
+  padding: 15px 30px;
   background: linear-gradient(slateblue, darkslateblue);
-  color: orange;
-  border: orange 1px solid;
-  border-radius: 20px;
+  color: yellow;
+  border: yellow 1px solid;
+  border-radius: 30px;
   width: fit-content;
   float: right;
   text-decoration: none;
 }
-.coffee:hover {
+.coffee1 {
+  bottom: 0;
+  right: 10px;
+  padding: 15px 20px;
+  border: orange 1px solid;
+}
+.coffee {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.coffee:hover, .coffee1:hover {
   color: white;
   border: white 1px solid;
 }
@@ -1222,8 +1231,8 @@ a:focus {
   background: darkslateblue;
 }
 
-.contact .container-fluid {
-  background: url(img/myIcon.png) left center no-repeat;
+#contact > #background {
+  background: url(/img/myIcon.png) left center no-repeat;
   background-size: contain;
 }
 
@@ -1295,9 +1304,9 @@ a:focus {
   }
 }
 
-/*******************************/
-/*********** Blog CSS **********/
-/*******************************/
+
+/*********** Blog **********/
+
 .blog {
   position: relative;
   width: 100%;
@@ -1496,5 +1505,8 @@ a:focus {
     font-size: 16px;
     line-height: 16px;
     padding: 0 5px;
+  }
+  .coffee1 {
+    position: absolute;
   }
 }

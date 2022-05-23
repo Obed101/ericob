@@ -223,16 +223,18 @@ a:focus {
   padding: 0;
 }
 
-.hero .hero-image {
-  position: relative;
-  /* padding-right: 75px; */
-  /* right: 0; */
+.row + .my-image {
+  /* position: relative; */
+  background: url(../img/obed_transp.png);
+  border-radius: 100%;
+  z-index: 10;
 }
 
-.hero .hero-image img {
+.hero .my-image img {
   max-width: 60%;
   max-height: 60%;
   border-radius: 100%;
+  text-orientation:sideways;
 }
 
 .hero .hero-content {
@@ -374,6 +376,9 @@ a:focus {
   .hero .hero-btn .btn {
     padding: 8px 10px;
     letter-spacing: 0;
+  }
+  .my-image {
+    display:none;
   }
 }
 

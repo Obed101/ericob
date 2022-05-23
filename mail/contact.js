@@ -48,17 +48,20 @@ $(function() {
           $("#success").html("<div class='alert alert-danger'>");
           $("#success > .alert-danger")
             .html(
-              "<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;"
+              `<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;`
             )
             .append("</button>");
           $("#success > .alert-danger").append(
             $("<strong>").html(
               "Sorry " +
                 name +
-                `, it seems there is an error.
+                `, I can see you want to send me some message about ${subject}. But
+it seems there is an error.
 If this continues, kindly <a style="color:blue" href='https://wa.me/233274097985'>
-Chat me on WhatsApp</a>
-Or call me on my number below`
+chat me on WhatsApp</a> or
+<a style="color:blue" href='mailto:obedamoako92@gmail.com?subject=
+${subject}&body=${message}'>submit via mail</a>,
+or call me on my number below`
             )
           );
           console.log("send not successful");

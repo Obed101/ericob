@@ -1,12 +1,12 @@
 (function ($) {
   'use strict';
-
+$('#loader').html('<i class="fas fa-spinner fa-pulse"></i>');
   let loader = function () {
     setTimeout(function () {
       if ($('#loader').length > 0) {
         $('#loader').removeClass('show');
       }
-    }, 1);
+    }, 0.1);
   };
   loader();
 
@@ -98,4 +98,12 @@
     $(this).addClass('filter-active');
     portfolioIsotope.isotope({filter: $(this).data('filter')});
   });
+
+  // Setting titles for links and buttons
+  // $links = $('a');
+  // $links.each(function() {
+  //   if (!$(this).attr("title")){
+  //     $(this).attr("title", "$(this).text()")
+  //   }
+  // });
 })(jQuery);

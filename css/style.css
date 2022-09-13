@@ -839,6 +839,7 @@ a:focus {
   right: 4px;
   padding: 3px;
   font-size: smaller;
+  border-radius: 10px;
   background-color: cornflowerblue;
 }
 .portfolio #portfolio-filter li {

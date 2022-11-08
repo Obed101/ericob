@@ -56,12 +56,12 @@ $(function() {
               "Sorry " +
                 name +
                 `, I can see you want to send me some message about ${subject}. But
-it seems there is an error.
-If this continues, kindly <a style="color:blue" href='https://wa.me/233274097985'>
-chat me on WhatsApp</a> or
-<a style="color:blue" href='mailto:obedamoako92@gmail.com?subject=
-${subject}&body=${message}'>submit via mail</a>,
-or call me on my number below`
+This server is currently not supporting that.
+The good thing is, everything you typed is at hand. <br>Would you like to submit it via email?
+You will not need to type anything again <br>
+<a href='mailto:obedamoako92@gmail.com?subject=
+${subject}&body=${message}'><button class="btn btn-primary">OK, SUBMIT VIA MAIL</button> </a>
+`
             )
           );
           console.log("send not successful");

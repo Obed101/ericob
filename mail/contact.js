@@ -56,8 +56,8 @@ $(function() {
               "Sorry " +
                 name +
                 `, I can see you want to send me some message about ${subject}. But
-The server is currently not supporting this. Everything you typed is collected.
-Would you like to submit via email? <br> You won't need to type anything again.
+The server is currently not supporting this. <br>Everything you typed is collected.
+Would you like to submit via email? <br>You won't need to type anything again.
 <a href='mailto:obedamoako92@gmail.com?subject=
 ${subject}&body=${message}' target="_blank"><button class="btn btn-primary">OK, SUBMIT NOW</button></a>,
 `

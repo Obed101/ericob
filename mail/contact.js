@@ -56,12 +56,12 @@ $(function() {
               "Sorry " +
                 name +
                 `, I can see you want to send me some message about ${subject}. But
-This server is currently not supporting that.
-The good thing is, everything you typed is at hand. <br>Would you like to submit it via email?
-You will not need to type anything again <br>
+The server is currently not supporting this. Everything you typed is collected.
+Would you like to submit via email? <br> You won't need to type anything again.
 <a href='mailto:obedamoako92@gmail.com?subject=
-${subject}&body=${message}'><button class="btn btn-primary">OK, SUBMIT VIA MAIL</button> </a>
+${subject}&body=${message}'><button class="btn btn-primary">OK, SUBMIT NOW</button></a>,
 `
+
             )
           );
           console.log("send not successful");

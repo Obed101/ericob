@@ -19,7 +19,7 @@ $(function() {
       $text = ` Send`
       $.ajax({
         url: "/mail/contact.php",
-        method: "POST",
+        type: "GET",
         data: {
           name: name,
           email: email,

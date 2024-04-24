@@ -1,5 +1,5 @@
 body {
-  color: #797979;
+  color: #797979; 
   background: #ffffff;
   font-family: 'Montserrat', sans-serif;
 }
@@ -825,12 +825,11 @@ a:focus {
 }
 
 .portfolio-desc {
-  background-color: slateblue;
   position: relative;
   margin: -30px 0 0 0;
   padding: 5px;
-  color: white;
   min-height: 1.6cm;
+  color: #000;
 }
 .soon {
   position: absolute;
@@ -851,7 +850,6 @@ a:focus {
   font-weight: 600;
   color: #ffffff;
   background: darkslateblue;
-  border: 2px solid transparent;
   border-radius: 0;
   box-shadow: inset 0 0 0 50px darkslateblue;
   transition: ease-out 0.3s;
@@ -874,7 +872,6 @@ a:focus {
 .portfolio .portfolio-wrap {
   position: relative;
   width: 100%;
-  border: slateblue 1px solid;
   margin-top: 10px;
 }
 
@@ -890,15 +887,17 @@ a:focus {
   object-fit: fill;
   max-height: 2.2in;
   transform: scale(1.1);
-  transition: .5s;
+  transition: .3s;
 }
 
 .portfolio .portfolio-item:hover img {
-  margin-left: 15px;
+  /* margin-left: 25px; */
+  transform: scale(1.04);
 }
 
 .portfolio .portfolio-text {
   position: relative;
+  opacity: 0.9;
   height: 60px;
   width: calc(100% - 30px);
   margin: -30px 15px 30px 15px;
@@ -924,8 +923,6 @@ a:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 45px;
-  font-weight: 100;
 }
 
 .portfolio .portfolio-item:hover a.btn {
